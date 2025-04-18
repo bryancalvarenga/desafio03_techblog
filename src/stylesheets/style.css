@@ -1,0 +1,25 @@
+@import url('/src/stylesheets/base/_reset.css');
+@import url('/src/stylesheets/hero-section.css');
+@import url('/src/stylesheets/article-section.css');
+@import url('/src/stylesheets/form-section.css');
+:root {
+    --brand-color: #846aff;
+    --dark-10: #121214;
+    --dark-20: #7c7c8a;
+    --dark-30: #eaeaea;
+    --dark-40: #eeeeff;
+    --dark-50: #f8f8ff;
+    --dark-60: #ffffff;
+    --primary-font: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: var(--primary-font);
+}
